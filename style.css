@@ -3,13 +3,40 @@ img {
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
+  border-color: purple;
+  border-width: 2rem;
+}
+
+img:hover {
+  animation: scaleAnimation 0.5s both;
+}
+
+@keyframes scaleAnimation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
 }
 
 body {
-  padding: 5px;
+  margin-top: 20px;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: azure;
   color: purple;
   font-size: 1.5rem;
+  justify-content: center;
+  vertical-align: auto;
+  align-items: center;
 }
