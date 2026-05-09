@@ -1,14 +1,12 @@
 img {
+}
+.mainimg {
   width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
   border-color: purple;
   border-width: 2rem;
-}
-
-img:hover {
-  animation: scaleAnimation 0.5s both;
 }
 
 @keyframes scaleAnimation {
